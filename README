@@ -1,0 +1,25 @@
+This is a JRuby on Rails on Google App Engine project created for a demo at JFokus 2010.
+
+
+It should be runnable by on any recent MRI (C-Ruby) installation by first
+
+#  sudo gem install google-appengine
+
+And then:
+
+Start development server (./script/server equivalent)
+
+# dev_appserver.rb .
+
+Open local console (./script/console equivalent)
+
+# appcfg.rb run -S irb -r config/environment
+
+Publish to production (edit config.ru with your application id)
+
+# appcfg.rb update .
+
+
+Inital setup was done by following the instructions here.
+http://gist.github.com/268192
+
